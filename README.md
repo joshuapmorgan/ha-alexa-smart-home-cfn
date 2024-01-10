@@ -23,7 +23,7 @@ The Lambda function is created using the same source code referenced in the Home
 
     ```
     alexa:
-    smart_home:
+       smart_home:
     ```
 
 1. Follow the steps within Home Assistant's documentation on [Configure the Smart Home Service Endpoint](https://www.home-assistant.io/integrations/alexa.smart_home/#configure-the-smart-home-service-endpoint). You will use the Lambda function ARN (available in the `LamdaFnArn` stack output).
